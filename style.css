@@ -161,48 +161,49 @@ button:hover{
 }
 
 .modal-content {
-    width: 70vh;
-    height: 70vh;
+    width: 50vh;
+    height: 50vh;
     background-color: #fff;
     border-radius: 4px;
     color: #202020;
-    position: fixed;
     border-radius: 2%;
     font-size: 1vh;
-    font-size: 0.8vw;
 }
 
 .modal-content h3 
 {
-    margin-top: 20px;
-    font-size: 1.5vw;
+    margin-top: 5vh;
+    font-size: 1.5vh;
 }
 
 .modal-content p {
-    width: 65vh;
+    width: 48vh;
     text-align: left;
-
+    font-size: 1.3vh;
+    line-height: 2vh;
 }
 
 .modal-content li {
-
+    width: 48vh;
     text-align: left;
-    margin-left: 1vw;
+    font-size: 1.2vh;
+    line-height: 1.2vh;
 }
 
 .contact {
-
+    line-height: 1.5vh;
     text-align: left;
     position: fixed;
-    bottom: 20vh;
-    padding: 10px;
+    font-size: 1.1vh;
+    margin-left: 1vw;
 }
 
 .close {
-    position: absolute;
-    top: 0;
-    right: 14px;
-    font-size: 2vw;
+    position: fixed;
+    width: 48vh;
+    margin-left: 23vh;
+    margin-bottom: 60vh;
+    font-size: 1.5vw;
     transform: rotate(45deg);
     cursor:pointer;
     transition: 0.5s;
