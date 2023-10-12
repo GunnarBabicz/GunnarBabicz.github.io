@@ -14,7 +14,7 @@ body{
 
 .header {
     background-color: rgba(0,0,0,0.3);
-    height: 60px;
+    height: 50px;
     width: 100%;
     display: flex;
 }
@@ -24,7 +24,7 @@ body{
 .header li{
     list-style: none;
     display: inline-block;
-    margin: 15px 20px;
+    margin: 12px 20px;
     position: relative;
 }
 
@@ -38,6 +38,20 @@ body{
 
 .header li a:hover {
     color: #fff;
+}
+
+.GithubButton {
+    position: absolute;
+    margin: 0px;
+    right: 60px;
+    top: -30px;
+}
+
+.LinkedInButton{
+    position: absolute;
+    margin: 0px;
+    right: 0px;
+    top: -30px;
 }
 
 
@@ -69,8 +83,7 @@ body{
 
 .content h2{
     font-size: 40px;
-    margin: 200px;
-    text-align: left;
+    margin:40px; 
 }
 
 .content p {
@@ -84,15 +97,23 @@ body{
     
 }
 
+
+
+
+.content pre {
+    white-space: pre-wrap; /* css-3 */
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+    text-align: left;
+}
+
 .content li {
     margin: 10px auto;
     text-align: left;
     width: 80%;
     font-size: 20px;
-}
-.content resume {
-    width: 50%;
-    height: 90vh;
 }
 
 
@@ -101,12 +122,11 @@ body{
     margin: 0 auto;
 }
 
-.resume {
-    width: 100%;
-    padding-top: 135%;
-    background: url(images/Babicz_Resume.jpg) no-repeat center;
-    background-size: cover;
-
+.projectBox {
+    position: absolute;
+    max-width: 80%;
+    left: 10%;
+    transform: translate();
 }
 
 
@@ -161,49 +181,48 @@ button:hover{
 }
 
 .modal-content {
-    width: 50vh;
-    height: 50vh;
+    width: 70vh;
+    height: 70vh;
     background-color: #fff;
     border-radius: 4px;
     color: #202020;
+    position: fixed;
     border-radius: 2%;
     font-size: 1vh;
+    font-size: 0.8vw;
 }
 
 .modal-content h3 
 {
-    margin-top: 5vh;
-    font-size: 1.5vh;
+    margin-top: 20px;
+    font-size: 1.5vw;
 }
 
 .modal-content p {
-    width: 48vh;
+    width: 65vh;
     text-align: left;
-    font-size: 1.3vh;
-    line-height: 2vh;
+
 }
 
 .modal-content li {
-    width: 48vh;
-    text-align: left;
-    font-size: 1.2vh;
-    line-height: 1.2vh;
-}
 
-.contact {
-    line-height: 1.5vh;
     text-align: left;
-    position: fixed;
-    font-size: 1.1vh;
     margin-left: 1vw;
 }
 
-.close {
+.contact {
+
+    text-align: left;
     position: fixed;
-    width: 48vh;
-    margin-left: 23vh;
-    margin-bottom: 60vh;
-    font-size: 1.5vw;
+    bottom: 20vh;
+    padding: 10px;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 2vw;
     transform: rotate(45deg);
     cursor:pointer;
     transition: 0.5s;
@@ -213,7 +232,7 @@ button:hover{
     color: #ff0000;
 }
 
-.projectHeader {
+.wrlrr {
     font-size: 40px;
     text-align: center;
     color: #fff;

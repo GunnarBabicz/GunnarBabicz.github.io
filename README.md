@@ -1,1 +1,1 @@
-# GunnarBabicz.github.io
+This is my personal website showcasing my projects and containing my items such as github and linkedin.
