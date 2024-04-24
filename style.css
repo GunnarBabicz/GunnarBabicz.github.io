@@ -14,7 +14,6 @@ body{
 
 .header {
     background-color: rgba(0,0,0,0.3);
-    height: 50px;
     width: 100%;
     display: flex;
 }
@@ -24,7 +23,7 @@ body{
 .header li{
     list-style: none;
     display: inline-block;
-    margin: 12px 20px;
+    margin: 15px 20px;
     position: relative;
 }
 
@@ -83,16 +82,16 @@ body{
 
 .content h2{
     font-size: 40px;
-    margin:40px; 
+    margin-top:5%; 
 }
 
 .content p {
     position: relative;
-    margin: 20px auto;
+    margin: 10px auto;
     font-weight: 100;
-    line-height: 30px;
-    font-size: 20px;
-    width: 80%;
+    line-height: 20px;
+    font-size: 15px;
+    width: 100%;
     text-align: left;
     
 }
@@ -122,8 +121,8 @@ body{
     margin: 0 auto;
 }
 
-.projectBox {
-    position: absolute;
+.contentBox {
+    position: relative;
     max-width: 80%;
     left: 10%;
     transform: translate();
@@ -156,6 +155,10 @@ span{
    bottom: 0;
    z-index: -1;
    transition: 0.5s;
+}
+
+footer{
+    margin-top: 30%;
 }
 
 button:hover span{
@@ -194,7 +197,7 @@ button:hover{
 
 .modal-content h3 
 {
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 1.5vw;
 }
 
@@ -230,10 +233,4 @@ button:hover{
 
 .close:hover {
     color: #ff0000;
-}
-
-.wrlrr {
-    font-size: 40px;
-    text-align: center;
-    color: #fff;
 }

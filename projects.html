@@ -12,6 +12,7 @@
             <ul>
                 <li><a href="index.html">home</a></li>
                 <li><a href="projects.html">projects</a></li>
+                <li><a href = "achievements.html">personal achivements</a></li>
                 <li><a href="https://docs.google.com/document/d/1iGnmU4GRuOUZu20CRuNLH1NOVKnaLha4/edit?usp=sharing&ouid=100030508415413481269&rtpof=true&sd=true">Resume</a></li>
             </ul>
 
@@ -30,35 +31,44 @@
                     
             <h2>Asteroids Replica</h2>
             <h3>(C#, Windows Forms)</h3>
-            <p></p>
-            <div class ="projectBox">
-                <pre>
-                An asteroids clone that began as a school project. I have added a few extra features past what was needed such as sound and leaderboards. Further optimizations and features will be added over time.
-                </pre>
-                <pre style="text-align: center;"><a href="https://github.com/GunnarBabicz/asteroidsReplica">View here on Github</a></pre>            
-                </div>                 
-        </div>
+            <div class ="contentBox">
+                <p>
+                    A clone of the arcade game Asteroids. This began as a school project, to which I added additional features such as 
+                    working sound and a leaderboard. My objective during the creation of this replica was to make it as close to the original
+                    as possible. This entire game was made from scratch, with no external libraries for game design used.
+                </p>           
+            </div>
 
-        <p style="margin-bottom:5cm;"></p>
+            <img src = "images/asteroids.png" alt = "Photo of my Asteroids replica" width="60%">
 
-
-        <div class="content">
-
-                    
-            <h2>SQL Password Manager</h2>
+            <h2>Reticle Painter for Escape From Tarkov</h2>
+            <h3>(Python)</h3>
+            <div class = "contentBox">
+                <p>
+                    I have played the game <em>Escape from Tarkov</em>, a realistic First Person Shooter, for several years. I frequently use tools
+                    like <a href = "https://tarkov-ballistics.com">Tarkov Ballistics</a> to calculate the ballistic drop for weapons in game. However, I sometimes
+                    found it difficult to properly utilize these results in game: While the ballistic results are accurate, the reticles of in game scopes are not correctly scaled. To help with this issue, I made a simple
+                    Python application to properly scale scope reticles and generate a reference image showing where the player needs to aim for certain distances. 
+                </p>
+                <img src="images/result.png" width = 70%>
+                <figcaption><em>An example output from the Reticle Painter</em></figcaption>
+                <p>As the program works currently, the user needs to enter their information into the calcualtor online, download the HTML file, and the program then parses the needed information
+                    from the HTML file. This was done as a temporary solution in anticipation for Tarkov Ballistics to publicly release their API. However, the API has yet to be released. 
+                    Current plans to improve this program include utilizing the Selenium Python library to automatically populate the ballistic calculator
+                    and retrieve needed data.  
+                </p>
+            </div>
+            
+            <h2>SQL Password Manager </h2>
             <h3>(SQL, C#, Windows Forms)</h3>
-            <p></p>
-            <div class ="projectBox">
-                <pre>
+            <div class ="contentBox">
+                <p>
                 My first personal project was a password manager using Python. This project is a continutation on what I have learned. The front end is being created with Windows Forms. This will communicate with a SQL backend to securely store credentials on a remote server. The goal with this program is to create a simple, but secure password manager that is available to access from multiple devices.
-                </pre>            
-                </div>
+                </p>            
+            </div>
 
-                            
+            
         </div>
-
-       
-    
-        <script src="/script.js"></script>
     </body>  
+    <footer></footer>
 <html>  
